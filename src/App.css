@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+.custom-background {
+    background: #141414;
+    background-image: radial-gradient(#262626 1px, transparent 0);
+    background-size: 40px 40px;
+    background-position: -19px -19px;
+  }
+
+.todo-background {
+    background-image: url('../src/assets/bgMain.png');
+}
