@@ -12,7 +12,7 @@ const Phone = () => {
         </div>
         <span className='text-[14px] text-[rgba(255,255,255,0.6)]'>Subtitle</span>
 
-        <img src='src/assets/Phone.png' alt="" className="absolute scale-125 max-lg:scale-100 max-lg:top-[20%] max-lg:left-[12%] top-[35%] left-[30%]"
+        <img src='images/assets/Phone.png' alt="" className="absolute scale-125 max-lg:scale-100 max-lg:top-[20%] max-lg:left-[12%] top-[35%] left-[30%]"
       />
 
 

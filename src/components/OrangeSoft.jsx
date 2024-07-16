@@ -17,22 +17,22 @@ const OrangeSoft = () => {
         <div className='flex flex-col gap-4 mt-[14px]'>
           <div className='flex justify-center gap-20'>
             <div className='w-[30%] h-[30%] flex flex-col items-center '>
-            <img  src="src/assets/Bros/Bros.png" alt="" />
+            <img  src="images/assets/Bros/Bros.png" alt="" />
             <span className='text-[14px] pt-[4px]'>Mr. Hashtag</span>
             </div>
             <div className='w-[30%] h-[30%] flex flex-col items-center '>
-            <img  src="src/assets/Bros/Bros-1.png" alt="" />
+            <img  src="images/assets/Bros/Bros-1.png" alt="" />
             <span className='text-[14px] pt-[4px]'>Energy Saver</span>
             </div>
             
           </div>
           <div className='flex justify-center gap-20'>
             <div className='w-[30%] h-[30%] flex flex-col items-center '>
-            <img  src="src/assets/Bros/Bros-2.png" alt="" />
+            <img  src="images/assets/Bros/Bros-2.png" alt="" />
             <span className='text-[14px] pt-[4px]'>Online School</span>
             </div>
             <div className='w-[30%] h-[30%] flex flex-col items-center '>
-            <img  src="src/assets/Bros/Bros-3.png" alt="" />
+            <img  src="images/assets/Bros/Bros-3.png" alt="" />
             <span className='text-[14px] pt-[4px]'>Covid Pass</span>
             </div>
             

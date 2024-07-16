@@ -14,7 +14,7 @@ const SmilingMap = () => {
 
         <img
           
-          src="src/assets/AppName.png" alt="" />
+          src="images/assets/AppName.png" alt="" />
       </div>
       </>
     )

@@ -8,7 +8,7 @@ const Twitter = () => {
       <div className=" bg-[rgb(29,29,29)] rounded-[50px] px-10 pb-[40px] py-8 mb-4 text-white text-[18px] overflow-hidden w-[100%]">
         <div className='border-[rgba(255,255,255,0.1)] flex items-center justify-between'>
           <div className='flex items-center gap-2'>
-            <img src="src/assets/profilepic.png" alt="" />
+            <img src="images/assets/profilepic.png" alt="" />
             <div>
               <h1 className='text-[18px] w-[100%] whitespace-nowrap'>Name</h1>
               <span className='text-[14px] text-[rgba(255,255,255,0.6)]'>@name</span>

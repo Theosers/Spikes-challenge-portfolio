@@ -14,7 +14,7 @@ const DashBoard = () => {
 
         <img
           className='absolute left-[20%]'
-          src="src/assets/macbook.png" alt="" />
+          src="images/assets/macbook.png" alt="" />
       </div>
       </>
     )

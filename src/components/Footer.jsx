@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
       <div className="flex text-[rgb(179,179,179)] items-center justify-between max-lg:flex-col max-lg:gap-4 mb-10 mt-[120px]">
         <div className="max-lg:hidden">
-          <img src="src/assets/LayersLogo.png" alt="" className="h-[38px]" />
+          <img src="images/assets/LayersLogo.png" alt="" className="h-[38px]" />
         </div>
         <div>
           <p>Théophile - Challenge Web</p>
