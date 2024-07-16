@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      <main className='px-4 flex flex-col items-center h-screen custom-background mx:px-2'>
+      <main className='px-4 flex flex-col items-center custom-background mx:px-2'>
         <Navbar />
 
         <Todo />

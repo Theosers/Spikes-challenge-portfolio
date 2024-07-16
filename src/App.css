@@ -15,4 +15,32 @@ body {
 
 .todo-background {
     background-image: url('../src/assets/bgMain.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.phone-background {
+  background-image: url('../src/assets/bgSpace.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bgFigma {
+  background-image: url("./assets/FigmaLayout.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bgSky {
+  background-image: url("./assets/sky.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bgMap {
+  background-image: url("./assets/bgLine.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
