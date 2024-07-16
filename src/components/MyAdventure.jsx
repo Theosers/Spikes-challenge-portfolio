@@ -14,20 +14,17 @@ const MyAdventure = () => {
         <span className='text-[14px] pl-[2px]'>🎉</span>
 
         <div class="mt-4 flex gap-4 bg-[#171717] py-2 px-6 rounded-[30px] border border-[#2C2C2C] -mr-[400px]">
-          <img src="/src/assets/Apps/Orangesoft.png" alt="" className="w-[70px] aspect-square"/>
-          <img src="/public/images/assets/Apps/Orangesoft.png" alt="" className="w-[70px] aspect-square"/>
           <img src="/images/assets/Apps/Orangesoft.png" alt="" className="w-[70px] aspect-square"/>
-          <img src="../public/images/assets/Apps/Orangesoft.png" alt="" className="w-[70px] aspect-square"/>
-          <img src="/src/assets/Apps/Aval.png" alt="" className="w-[70px] aspect-square"/>
+          <img src="/images/assets/Apps/Aval.png" alt="" className="w-[70px] aspect-square"/>
           
           <div class="h-[50px] self-center w-0.5 bg-[#2C2C2C]">
           </div>
-          <img src="/src/assets/Apps/Lacerta.png" alt="" class="w-[70px] aspect-square"/>
-          <img src="/src/assets/Apps/Stocks.png" alt="" class="w-[70px] aspect-square" />
+          <img src="/images/assets/Apps/Lacerta.png" alt="" class="w-[70px] aspect-square"/>
+          <img src="/images/assets/Apps/Stocks.png" alt="" class="w-[70px] aspect-square" />
           <div class="h-[50px] self-center w-0.5 bg-[#2C2C2C]">
           </div>
-          <img src="/src/assets/Apps/MerryKitchen.png" alt="" class="w-[70px] aspect-square" />
-          <img src="/src/assets/Apps/Jullia.png" alt="" class="w-[70px] aspect-square" />
+          <img src="/images/assets/Apps/MerryKitchen.png" alt="" class="w-[70px] aspect-square" />
+          <img src="/images/assets/Apps/Jullia.png" alt="" class="w-[70px] aspect-square" />
         </div>
       </div>
       
