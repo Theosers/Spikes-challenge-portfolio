@@ -15,6 +15,9 @@ const MyAdventure = () => {
 
         <div class="mt-4 flex gap-4 bg-[#171717] py-2 px-6 rounded-[30px] border border-[#2C2C2C] -mr-[400px]">
           <img src="/src/assets/Apps/Orangesoft.png" alt="" className="w-[70px] aspect-square"/>
+          <img src="/public/images/assets/Apps/Orangesoft.png" alt="" className="w-[70px] aspect-square"/>
+          <img src="/images/assets/Apps/Orangesoft.png" alt="" className="w-[70px] aspect-square"/>
+          <img src="../public/images/assets/Apps/Orangesoft.png" alt="" className="w-[70px] aspect-square"/>
           <img src="/src/assets/Apps/Aval.png" alt="" className="w-[70px] aspect-square"/>
           
           <div class="h-[50px] self-center w-0.5 bg-[#2C2C2C]">
