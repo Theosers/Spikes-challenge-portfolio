@@ -7,7 +7,7 @@ const Todo = () => {
   return (
     <>
     <motion.div 
-      className="todo-background rounded-[50px] max-lg:px-8 max-lg:py-8 py-[40px] px-[54px] mb-4 text-white text-xl w-[100%] pb-28"
+      className="todo-background rounded-[50px] max-lg:px-8 max-lg:py-8 py-[40px] px-[54px] mb-4 text-white text-xl pb-28"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}

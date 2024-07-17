@@ -20,18 +20,18 @@ function App() {
 
   return (
     <>
-      <main className='px-20 max-lg:px-4 mx-auto flex flex-col items-center  mx:px-2 w-[100%]
-       max-w-[1600px]'>
+      <main className='custom-background px-20 max-lg:px-4 mx-auto flex flex-col items-center  mx:px-2
+       max-w-[1600px] min-w-[415px]'>
         <Navbar />
 
-        <section className="text-white mt-12 flex flex-col gap-4">
+        <section className="text-white mt-12 flex flex-col gap-4 max-lg:w-[95%] w-[100%]">
           <div className="flex gap-4 max-lg:flex-col">
             <div className=''>
               <Todo />
               <OrangeSoft />
             </div>
 
-            <div className=''>
+            <div className='w-1/2 max-lg:w-full flex flex-col gap-4'>
               <MyAdventure />
               <div className='flex max-lg:flex-col gap-4'>
                 <Phone />

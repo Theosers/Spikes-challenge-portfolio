@@ -719,6 +719,10 @@ video {
   width: 50%;
 }
 
+.w-\[70\%\] {
+  width: 70%;
+}
+
 .w-\[70px\] {
   width: 70px;
 }
@@ -729,6 +733,14 @@ video {
 
 .w-\[93\%\] {
   width: 93%;
+}
+
+.w-\[10\%\] {
+  width: 10%;
+}
+
+.min-w-\[415px\] {
+  min-width: 415px;
 }
 
 .max-w-\[1600px\] {
@@ -1143,6 +1155,10 @@ body {
 
   .max-lg\:w-\[100\%\] {
     width: 100%;
+  }
+
+  .max-lg\:w-\[95\%\] {
+    width: 95%;
   }
 
   .max-lg\:w-full {
