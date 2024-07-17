@@ -1,11 +1,17 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+import { motion } from 'framer-motion';
 
 const MyAdventure = () => {
 
     return (
       <>
-      <div className="bg-[rgb(29,29,29)] rounded-[50px]	 px-14 py-12 mb-4 text-white text-[18px] overflow-hidden w-[100%]">
+      <motion.div 
+        className="bg-[rgb(29,29,29)] rounded-[50px] px-14 py-12 mb-4 text-white text-[18px] overflow-hidden w-[100%]"
+        initial={{ y: 50 }}
+        animate={{ y: 0 }}
+        transition={{ duration: 0.5 }}
+      >
         <div className='border-[rgba(255,255,255,0.1)] flex'>
           <h1 className='text-[18px] w-[100%] whitespace-nowrap'>My adventure lasting 10+ years</h1>
           <FontAwesomeIcon className='ml-[50px] text-[rgba(255,255,255,0.6)]' icon={faUpRightFromSquare } />
@@ -26,12 +32,11 @@ const MyAdventure = () => {
           <img src="/images/assets/Apps/MerryKitchen.png" alt="" className="w-[70px] aspect-square" />
           <img src="/images/assets/Apps/Jullia.png" alt="" className="w-[70px] aspect-square" />
         </div>
-      </div>
+      </motion.div>
       
 
       </>
     )
   }
   
-  export default MyAdventure
-  
+  export default MyAdventure;

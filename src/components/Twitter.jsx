@@ -1,11 +1,18 @@
 import React from 'react';
 import { TbSend } from "react-icons/tb";
 import { FaTwitter } from "react-icons/fa";
+import { motion } from 'framer-motion';
+
 const Twitter = () => {
 
     return (
       <>
-      <div className=" bg-[rgb(29,29,29)] rounded-[50px] px-10 pb-[40px] py-8 mb-4 text-white text-[18px] overflow-hidden w-[100%]">
+      <motion.div 
+        className="bg-[rgb(29,29,29)] rounded-[50px] px-10 pb-[40px] py-8 mb-4 text-white text-[18px] overflow-hidden w-[100%]"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
         <div className='border-[rgba(255,255,255,0.1)] flex items-center justify-between'>
           <div className='flex items-center gap-2'>
             <img src="images/assets/profilepic.png" alt="" />
@@ -22,10 +29,9 @@ const Twitter = () => {
         <button className='mt-[20px] text-[14px] w-[100%] rounded-[50px] border-[rgb(179,179,179)] bg-[rgb(29,29,29)] flex items-center justify-evenly'>Read my social <i></i>
         <TbSend size={18} className="" />
         </button>
-      </div>
+      </motion.div>
       </>
     )
   }
   
-  export default Twitter
-  
+  export default Twitter;

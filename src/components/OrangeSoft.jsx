@@ -1,11 +1,17 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+import { motion } from 'framer-motion';
 
 const OrangeSoft = () => {
 
     return (
       <>
-      <div className="bg-[rgb(29,29,29)] rounded-[50px]	 px-14 py-10 mb-4 text-white text-[18px]">
+      <motion.div 
+        className="bg-[rgb(29,29,29)] rounded-[50px] px-14 py-10 mb-4 text-white text-[18px]"
+        initial={{ y: 50 }}
+        animate={{ y: 0 }}
+        transition={{ duration: 0.5 }}
+      >
         <div className='border-[rgba(255,255,255,0.1)] flex'>
         <h1 className='text-[18px] w-[100%]'>Adventure with Orangesoft lasting 5 years</h1>
         <FontAwesomeIcon className='ml-[10px] text-[rgba(255,255,255,0.6)]' icon={faUpRightFromSquare } />
@@ -39,10 +45,9 @@ const OrangeSoft = () => {
           </div>
 
         </div>
-      </div>
+      </motion.div>
       </>
     )
   }
   
-  export default OrangeSoft
-  
+  export default OrangeSoft;

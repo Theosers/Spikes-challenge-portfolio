@@ -1,12 +1,17 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
-
+import { motion } from 'framer-motion';
 
 const Todo = () => {
 
   return (
     <>
-    <div className="todo-background rounded-[50px] max-lg:px-8 max-lg:py-8 py-[40px] px-[54px] mb-4 text-white text-xl w-[100%] pb-28">
+    <motion.div 
+      className="todo-background rounded-[50px] max-lg:px-8 max-lg:py-8 py-[40px] px-[54px] mb-4 text-white text-xl w-[100%] pb-28"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+    >
       <div className='pb-5 border-b-2 border-[rgba(255,255,255,0.1)] flex justify-between'>
         <h1 className='text-2xl w-[80%]'> <span className='font-[600]'>Théophile is Coding -</span> Engineer, Freelance Full-Stack Developer</h1>
         
@@ -72,9 +77,9 @@ const Todo = () => {
             
           </ul>
         </div>
-    </div>
+    </motion.div>
     </>
   )
 }
 
-export default Todo
+export default Todo;

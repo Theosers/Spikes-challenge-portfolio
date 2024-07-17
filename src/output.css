@@ -663,10 +663,6 @@ video {
   height: 40px;
 }
 
-.h-\[480px\] {
-  height: 480px;
-}
-
 .h-\[50px\] {
   height: 50px;
 }
@@ -677,14 +673,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[50\%\] {
-  height: 50%;
-}
-
-.h-\[20\%\] {
-  height: 20%;
 }
 
 .w-0 {
@@ -888,11 +876,6 @@ video {
   background-color: transparent;
 }
 
-.bg-indigo-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(99 102 241 / var(--tw-bg-opacity));
-}
-
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -1067,8 +1050,20 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
+}
+
+.button-focused {
+  background-color: rgb(29, 29, 29);
 }
 
 .custom-background {
@@ -1112,11 +1107,6 @@ body {
   background-repeat: no-repeat;
 }
 
-.focus\:bg-\[rgb\(29\2c 29\2c 29\)\]:focus {
-  --tw-bg-opacity: 1;
-  background-color: rgb(29 29 29 / var(--tw-bg-opacity));
-}
-
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1131,16 +1121,16 @@ body {
     top: 20%;
   }
 
-  .max-lg\:flex {
-    display: flex;
-  }
-
   .max-lg\:hidden {
     display: none;
   }
 
   .max-lg\:h-\[100\%\] {
     height: 100%;
+  }
+
+  .max-lg\:h-\[480px\] {
+    height: 480px;
   }
 
   .max-lg\:h-\[500px\] {
@@ -1151,16 +1141,8 @@ body {
     height: 550px;
   }
 
-  .max-lg\:h-\[480px\] {
-    height: 480px;
-  }
-
   .max-lg\:w-\[100\%\] {
     width: 100%;
-  }
-
-  .max-lg\:w-\[50\%\] {
-    width: 50%;
   }
 
   .max-lg\:w-full {

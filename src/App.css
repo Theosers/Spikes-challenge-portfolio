@@ -6,6 +6,11 @@ body {
     font-family: 'Poppins', sans-serif;
   }
 
+.button-focused {
+  background-color: rgb(29, 29, 29);
+}
+
+
 .custom-background {
     background: #141414;
     background-image: radial-gradient(#262626 1px, transparent 0);

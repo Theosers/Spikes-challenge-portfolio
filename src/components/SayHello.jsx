@@ -1,10 +1,16 @@
 import { TbSend } from "react-icons/tb";
+import { motion } from 'framer-motion';
 
 const SayHello = () => {
 
     return (
       <>
-      <div className="flex flex-col justify-between relative bg-[rgb(29,29,29)] rounded-[50px] px-10 py-10 mb-4 text-white text-[18px] overflow-hidden max-lg:w-[100%] w-[50%]">
+      <motion.div 
+        className="flex flex-col justify-between relative bg-[rgb(29,29,29)] rounded-[50px] px-10 py-10 mb-4 text-white text-[18px] overflow-hidden max-lg:w-[100%] w-[50%]"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
       
       <h1 className="mb-20 text-[45px] font-normal">Say, <br/>Hello 👋🏻</h1>
       <div className="flex gap-2">
@@ -17,10 +23,9 @@ const SayHello = () => {
 
       
       
-      </div>
+      </motion.div>
       </>
     )
   }
   
-  export default SayHello
-  
+  export default SayHello;
