@@ -20,20 +20,40 @@ function App() {
 
   return (
     <>
-      <main className='px-4 flex flex-col items-center custom-background mx:px-2'>
+      <main className='px-20 max-lg:px-4 mx-auto flex flex-col items-center  mx:px-2 w-[100%]
+       max-w-[1600px]'>
         <Navbar />
 
-        <Todo />
-        <OrangeSoft />
-        <MyAdventure />
-        <Phone />
-        <Twitter />
-        <DribbleChat />
-        <Figma />
-        <DashBoard />
-        <SmilingMap />
-        <SayHello />
+        <section className="text-white mt-12 flex flex-col gap-4">
+          <div className="flex gap-4 max-lg:flex-col">
+            <div className=''>
+              <Todo />
+              <OrangeSoft />
+            </div>
 
+            <div className=''>
+              <MyAdventure />
+              <div className='flex max-lg:flex-col gap-4'>
+                <Phone />
+                <div className=''>
+                  <Twitter />
+                  <DribbleChat />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className='flex max-lg:flex-col gap-4'>
+            <Figma />
+            <div className='w-1/2 max-lg:w-full flex flex-col gap-4'>
+              <DashBoard />
+              <div className='flex gap-4 max-lg:flex-col'>
+                <SmilingMap />
+                <SayHello />
+              </div>
+            </div>
+          </div>
+        </section>
         <Footer />
       </main>
     </>

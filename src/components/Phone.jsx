@@ -5,7 +5,7 @@ const Phone = () => {
 
     return (
       <>
-      <div className="relative phone-background h-[550px] rounded-[50px] px-14 py-12 mb-4 text-white text-[18px] overflow-hidden w-[100%]">
+      <div className="relative phone-background rounded-[50px] px-14 py-12 mb-4 text-white text-[18px] overflow-hidden max-lg:w-[100%] w-[93%] max-lg:h-[550px] ">
         <div className='border-[rgba(255,255,255,0.1)] flex'>
           <h1 className='text-[18px] w-[100%] whitespace-nowrap'>Application Name</h1>
           <FontAwesomeIcon className='ml-[50px] text-[rgba(255,255,255,0.6)]' icon={faUpRightFromSquare } />
