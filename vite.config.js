@@ -8,4 +8,5 @@ export default defineConfig({
     rollupOptions: {
       external: ['framer-motion'],
     },
+  }
 })
